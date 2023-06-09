@@ -1,41 +1,41 @@
 # nyt-app
 
-To run frontend:
-git clone https://github.com/atifreza/nyt-app.git
-cd nyt-app
-npm install
-npm start
-Server will start at 3000
-Login with the users available in the users.json of below fake server repo. e.g: 1.bruno@email.com/bruno 2.techie@email.com/techie
+To run frontend:  
+git clone https://github.com/atifreza/nyt-app.git. 
+cd nyt-app. 
+npm install.  
+npm start. 
+Server will start at 3000. 
+Login with the users available in the users.json of below fake server repo. e.g: 1.bruno@email.com/bruno 2.techie@email.com/techie  
 
-To run unit test coverage:
-npm run test:coverage
-Navigate to Coverage -> Icov-report -> index.html to view the coverage
+To run unit test coverage:  
+npm run test:coverage. 
+Navigate to Coverage -> Icov-report -> index.html to view the coverage. 
 
-To run fake server for login/register:
-git clone https://github.com/techiediaries/fake-api-jwt-json-server
-npm install
-npm run start-auth
-Server will start at 8000
+To run fake server for login/register:  
+git clone https://github.com/techiediaries/fake-api-jwt-json-server. 
+npm install. 
+npm run start-auth. 
+Server will start at 8000. 
 
-Make sure both the servers are running.
+Make sure both the servers are running.  
 
 
-Features:
-1.Login/Register witht the given user.
+Features:  
+1.Login/Register witht the given user.  
 2.After successfull login, topStories page will be displayed by default for 'world' article with an option to view the top stories for
-  'science' article as well.
-3.User can click on any story and can view the details of the clicked story in the next tab.
+  'science' article as well.  
+3.User can click on any story and can view the details of the clicked story in the next tab.  
 4. User has an option to view the article of his/her choice just by navigating to searchArticle page by clicking on 
-  'Go To Search Article' link.
+  'Go To Search Article' link.  
 5.On searh article page, user can see an input field with a search icon where he/she can enter the article of their choice and a list of
-  article will be populated based on the search.
+  article will be populated based on the search.  
 6.User can view the details of the article by clicking on the articl link and can also view the comments related to that article by
-  clickin on 'Click to see comment'.
+  clickin on 'Click to see comment'.  
 7. A modal pop will be opened with the latest comment(Comments are mock up data which is been inserted into the searched article array
-   based on the id).
-8. Clicking outside the modal can close the modal.
-9. Article search by user wil be displayed at the top the page and the last 5 search article will be displayed.
+   based on the id).  
+8. Clicking outside the modal can close the modal. 
+9. Article search by user wil be displayed at the top the page and the last 5 search article will be displayed.  
 10. At the bottom of the page, pagination has been implemented where user can navigate to different pages and each page will display
     a record of 10 articles. 
 11. The application data is persisted, even if the user refreshes the page, they can see the last viewed result.
