@@ -45,7 +45,7 @@ export const userLogin = (userData, status) => async (dispatch) => {
             document.cookie = `accessToken=${access_token}; max-age=900; path=/;`;
             if (status === 'login') {
                 dispatch(setLoggedIn(true));
-                dispatch(loginSuccess(access_token, 120, userData, status));
+                dispatch(loginSuccess(access_token, 900, userData, status));
             } else if (status === 'register') {
                 dispatch(setRegister(true));
             }
