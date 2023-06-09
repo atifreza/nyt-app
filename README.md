@@ -3,12 +3,12 @@
 To run frontend:  
 git clone https://github.com/atifreza/nyt-app.git. 
 cd nyt-app. 
-npm install.  
+npm install. 
 npm start. 
 Server will start at 3000. 
-Login with the users available in the users.json of below fake server repo. e.g: 1.bruno@email.com/bruno 2.techie@email.com/techie  
+Login with the users available in the users.json of below fake server repo. e.g: 1.bruno@email.com/bruno 2.techie@email.com/techie. 
 
-To run unit test coverage:  
+To run unit test coverage:   
 npm run test:coverage. 
 Navigate to Coverage -> Icov-report -> index.html to view the coverage. 
 
@@ -18,7 +18,7 @@ npm install.
 npm run start-auth. 
 Server will start at 8000. 
 
-Make sure both the servers are running.  
+Make sure both the servers are running   
 
 
 Features:  
@@ -38,24 +38,26 @@ Features:
 9. Article search by user wil be displayed at the top the page and the last 5 search article will be displayed.  
 10. At the bottom of the page, pagination has been implemented where user can navigate to different pages and each page will display
     a record of 10 articles. 
-11. The application data is persisted, even if the user refreshes the page, they can see the last viewed result.
+11. The application data is persisted, even if the user refreshes the page, they can see the last viewed result.  
 12. Private routes has been implemented. If the user is not logged in and if they try to navigate by typing nay random url
-    or even the existing urls like, /topStories and /searchArticle, they will see a page not found page.
+    or even the existing urls like, /topStories and /searchArticle, they will see a page not found page.  
 13. The accessToken fetch from login is being sent to all the nyt api calls in authorization bearer token.
-    For this I have created a proxy middleware.
+    For this I have created a proxy middleware.  
 14. A middleware has been implemented to get the new accesstoken which will call login api after every 14 mins.
-    Just before a minute when token is about to get expired at 15 mins.
-15. Sign out feature is also been implemented.
-    
-Implemented all the requirements as mentioned in the document:
-App should run on Chrome/Firefox/Edge/InternetExplorer/Safari browsers
-App should be responsive on all screen resolutions.
-Use of Redux for error handling and data persistence.
-Use of Axios
-Use of React Router
-Unit test and code coverage
-Use of material UI or bootstrap.
-Code to be generic and simple
-Leverage today's best coding practices
+    Just before a minute when token is about to get expired at 15 mins.  
+15. Sign out feature is also been implemented.  
+
+
+Implemented all the requirements as mentioned in the document:  
+App should run on Chrome/Firefox/Edge/InternetExplorer/Safari browsers. 
+App should be responsive on all screen resolutions.  
+Use of Redux for error handling and data persistence.  
+Use of Axios. 
+Use of React Router. 
+Unit test and code coverage. 
+Use of material UI or bootstrap.  
+Code to be generic and simple. 
+Leverage today's best coding practices. 
+
 
 
