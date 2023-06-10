@@ -1,24 +1,24 @@
 # nyt-app
 
-To run frontend:  
-git clone https://github.com/atifreza/nyt-app.git. 
-cd nyt-app. 
-npm install. 
-npm start. 
-Server will start at 3000. 
-Login with the users available in the users.json of below fake server repo. e.g: 1.bruno@email.com/bruno 2.techie@email.com/techie. 
+To run frontend:  <br>
+git clone https://github.com/atifreza/nyt-app.git. <br>   
+cd nyt-app. <br>
+npm install. <br>
+npm start. <br>
+Server will start at 3000. <br>
+Login with the users available in the users.json of below fake server repo. e.g: 1.bruno@email.com/bruno 2.techie@email.com/techie. <br>
 
-To run unit test coverage:   
-npm run test:coverage. 
-Navigate to Coverage -> Icov-report -> index.html to view the coverage. 
+To run unit test coverage:   <br>
+npm run test:coverage. <br>
+Navigate to Coverage -> Icov-report -> index.html to view the coverage. <br>
 
-To run fake server for login/register:  
-git clone https://github.com/techiediaries/fake-api-jwt-json-server. 
-npm install. 
-npm run start-auth. 
-Server will start at 8000. 
+To run fake server for login/register:  <br>
+git clone https://github.com/techiediaries/fake-api-jwt-json-server. <br>
+npm install. <br>
+npm run start-auth. <br>
+Server will start at 8000. <br>
 
-Make sure both the servers are running   
+Make sure both the servers are running <br>  
 
 
 Features:  
@@ -48,14 +48,14 @@ Features:
 15. Sign out feature is also been implemented.  
 
 
-Implemented all the requirements as mentioned in the document:  
-App should run on Chrome/Firefox/Edge/InternetExplorer/Safari browsers. 
-App should be responsive on all screen resolutions.  
-Use of Redux for error handling and data persistence.  
-Use of Axios. 
-Use of React Router. 
-Unit test and code coverage. 
-Use of material UI or bootstrap.  
+Implemented all the requirements as mentioned in the document:  <br>
+App should run on Chrome/Firefox/Edge/InternetExplorer/Safari browsers.<br> 
+App should be responsive on all screen resolutions.  <br>
+Use of Redux for error handling and data persistence.  <br>
+Use of Axios. <br>
+Use of React Router. <br>
+Unit test and code coverage. <br>
+Use of material UI or bootstrap.  <br>
 Code to be generic and simple. 
 Leverage today's best coding practices. 
 
