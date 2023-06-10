@@ -1,6 +1,6 @@
 # nyt-app
 
-`To run frontend:`  <br>
+`**To run frontend:**`  <br>
 `git clone https://github.com/atifreza/nyt-app.git` <br>   
 `cd nyt-app` <br>
 `npm install` <br>
