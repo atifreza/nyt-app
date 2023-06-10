@@ -1,8 +1,8 @@
 # nyt-app
 
-`To run frontend:  <br>
-git clone https://github.com/atifreza/nyt-app.git. <br>   
-cd nyt-app. <br>
+`To run frontend:`  <br>
+`git clone https://github.com/atifreza/nyt-app.git.` <br>   
+`cd nyt-app`. <br>
 npm install. <br>
 npm start. <br>
 Server will start at 3000. <br>
