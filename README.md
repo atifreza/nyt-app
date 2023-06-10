@@ -1,14 +1,14 @@
 # nyt-app
 
 `To run frontend:`  <br>
-`git clone https://github.com/atifreza/nyt-app.git.` <br>   
-`cd nyt-app`. <br>
-npm install. <br>
-npm start. <br>
-Server will start at 3000. <br>
-Login with the users available in the users.json of below fake server repo. e.g: 1.bruno@email.com/bruno 2.techie@email.com/techie. <br>
+`git clone https://github.com/atifreza/nyt-app.git` <br>   
+`cd nyt-app` <br>
+`npm install` <br>
+`npm start` <br>
+`Server will start at 3000` <br>
+`Login with the users available in the users.json of below fake server repo. e.g: 1.bruno@email.com/bruno 2.techie@email.com/techie` <br>
 
-To run unit test coverage:   <br>
+`To run unit test coverage:` <br>
 npm run test:coverage. <br>
 Navigate to Coverage -> Icov-report -> index.html to view the coverage.` <br>
 
