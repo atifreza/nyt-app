@@ -1,6 +1,6 @@
 # nyt-app
 
-`To run frontend:`  <br>
+`To run frontend:  <br>
 git clone https://github.com/atifreza/nyt-app.git. <br>   
 cd nyt-app. <br>
 npm install. <br>
@@ -10,7 +10,7 @@ Login with the users available in the users.json of below fake server repo. e.g:
 
 To run unit test coverage:   <br>
 npm run test:coverage. <br>
-Navigate to Coverage -> Icov-report -> index.html to view the coverage. <br>
+Navigate to Coverage -> Icov-report -> index.html to view the coverage.` <br>
 
 To run fake server for login/register:  <br>
 git clone https://github.com/techiediaries/fake-api-jwt-json-server. <br>
